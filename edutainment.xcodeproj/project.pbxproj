@@ -11,11 +11,12 @@
 		0F1BB93027F9D54100B3813E /* UserProfile.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F1BB92F27F9D54100B3813E /* UserProfile.swift */; };
 		0F1BB93227F9D90D00B3813E /* Classical_TextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F1BB93127F9D90D00B3813E /* Classical_TextField.swift */; };
 		0F7DFA8C27F8D52700BE2D45 /* multiplicationTable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F7DFA8B27F8D52700BE2D45 /* multiplicationTable.swift */; };
+		0F9024F127FA5D9D00F0165C /* HomeScreenView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F9024F027FA5D9D00F0165C /* HomeScreenView.swift */; };
 		0FE267D327F84CCD00ED0852 /* edutainmentApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FE267D227F84CCD00ED0852 /* edutainmentApp.swift */; };
 		0FE267D527F84CCD00ED0852 /* MainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FE267D427F84CCD00ED0852 /* MainView.swift */; };
 		0FE267D727F84CCE00ED0852 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0FE267D627F84CCE00ED0852 /* Assets.xcassets */; };
 		0FE267DA27F84CCE00ED0852 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0FE267D927F84CCE00ED0852 /* Preview Assets.xcassets */; };
-		0FEAB70627F9C070003BD4FA /* User_Settings_View.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FEAB70527F9C070003BD4FA /* User_Settings_View.swift */; };
+		0FEAB70627F9C070003BD4FA /* OnBoardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FEAB70527F9C070003BD4FA /* OnBoardView.swift */; };
 		0FEAB70C27F9C7BD003BD4FA /* Classical_Button.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FEAB70B27F9C7BD003BD4FA /* Classical_Button.swift */; };
 /* End PBXBuildFile section */
 
@@ -24,12 +25,13 @@
 		0F1BB92F27F9D54100B3813E /* UserProfile.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserProfile.swift; sourceTree = "<group>"; };
 		0F1BB93127F9D90D00B3813E /* Classical_TextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Classical_TextField.swift; sourceTree = "<group>"; };
 		0F7DFA8B27F8D52700BE2D45 /* multiplicationTable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = multiplicationTable.swift; sourceTree = "<group>"; };
+		0F9024F027FA5D9D00F0165C /* HomeScreenView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeScreenView.swift; sourceTree = "<group>"; };
 		0FE267CF27F84CCD00ED0852 /* edutainment.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = edutainment.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		0FE267D227F84CCD00ED0852 /* edutainmentApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = edutainmentApp.swift; sourceTree = "<group>"; };
 		0FE267D427F84CCD00ED0852 /* MainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainView.swift; sourceTree = "<group>"; };
 		0FE267D627F84CCE00ED0852 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		0FE267D927F84CCE00ED0852 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
-		0FEAB70527F9C070003BD4FA /* User_Settings_View.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User_Settings_View.swift; sourceTree = "<group>"; };
+		0FEAB70527F9C070003BD4FA /* OnBoardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnBoardView.swift; sourceTree = "<group>"; };
 		0FEAB70B27F9C7BD003BD4FA /* Classical_Button.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Classical_Button.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -92,7 +94,6 @@
 				0FEAB70427F9C04B003BD4FA /* views */,
 				0FEAB70927F9C79B003BD4FA /* core */,
 				0FE267D227F84CCD00ED0852 /* edutainmentApp.swift */,
-				0FE267D427F84CCD00ED0852 /* MainView.swift */,
 				0FE267D627F84CCE00ED0852 /* Assets.xcassets */,
 				0FE267D827F84CCE00ED0852 /* Preview Content */,
 			);
@@ -110,7 +111,9 @@
 		0FEAB70427F9C04B003BD4FA /* views */ = {
 			isa = PBXGroup;
 			children = (
-				0FEAB70527F9C070003BD4FA /* User_Settings_View.swift */,
+				0FE267D427F84CCD00ED0852 /* MainView.swift */,
+				0FEAB70527F9C070003BD4FA /* OnBoardView.swift */,
+				0F9024F027FA5D9D00F0165C /* HomeScreenView.swift */,
 			);
 			path = views;
 			sourceTree = "<group>";
@@ -203,9 +206,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				0FEAB70627F9C070003BD4FA /* User_Settings_View.swift in Sources */,
+				0FEAB70627F9C070003BD4FA /* OnBoardView.swift in Sources */,
 				0F7DFA8C27F8D52700BE2D45 /* multiplicationTable.swift in Sources */,
 				0F1BB93027F9D54100B3813E /* UserProfile.swift in Sources */,
+				0F9024F127FA5D9D00F0165C /* HomeScreenView.swift in Sources */,
 				0F1BB93227F9D90D00B3813E /* Classical_TextField.swift in Sources */,
 				0FEAB70C27F9C7BD003BD4FA /* Classical_Button.swift in Sources */,
 				0FE267D527F84CCD00ED0852 /* MainView.swift in Sources */,

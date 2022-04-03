@@ -9,9 +9,13 @@ import Foundation
 import SwiftUI
 
 
-struct UserProfile  {
+class UserProfile  {
     
-    private var name : String
-    private var iconImage : Image
+    @Published private var name : String
+    @Published private var iconImage : Image
     
+    init(name : String , iconImage : Image) {
+        self.name = name
+        self.iconImage = iconImage
+    }
 }
